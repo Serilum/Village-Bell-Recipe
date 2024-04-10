@@ -3,8 +3,8 @@ subprojects {
     apply plugin: 'java'
     
     java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-    java.withSourcesJar()
-    java.withJavadocJar()
+    //java.withSourcesJar()
+    //java.withJavadocJar()
     
     tasks.withType(Javadoc) {
         options.addStringOption('Xdoclint:none', '-quiet')
@@ -43,7 +43,7 @@ subprojects {
 
         maven {
             name = "Serilum Maven"
-            url = "https://github.com/ricksouth/serilum-forge-maven/raw/maven/"
+            url = "https://github.com/Serilum/.maven/raw/maven/"
         }
     }
     

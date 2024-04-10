@@ -8,7 +8,7 @@ archivesBaseName = "${mod_name}-fabric-${minecraft_version}"
 
 repositories {
     maven { url "https://maven.terraformersmc.com/releases/" }
-    maven { url "https://github.com/ricksouth/serilum-forge-maven/raw/maven/" }
+    maven { url "https://github.com/Serilum/.maven/raw/maven/" }
 }
 
 dependencies {
@@ -28,6 +28,10 @@ dependencies {
 }
 
 loom {
+    mixin {
+        defaultRefmapName.set("${mod_id}_fabric.refmap.json")
+    }
+    
     runs {
         client {
             client()

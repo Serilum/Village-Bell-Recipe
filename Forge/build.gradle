@@ -76,7 +76,7 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    annotationProcessor 'org.spongepowered:mixin:0.8.4:processor' // mixin
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor' // mixin
 
     compileOnly project(":Common")
 
@@ -121,6 +121,6 @@ publishing {
 
 repositories {
     maven {
-        url = "https://github.com/ricksouth/serilum-forge-maven/raw/maven/"
+        url = "https://github.com/Serilum/.maven/raw/maven/"
     }
 }
