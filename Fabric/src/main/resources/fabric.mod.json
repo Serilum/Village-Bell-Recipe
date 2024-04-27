@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "villagebellrecipe",
+  "version": "3.3",
+
+  "name": "Village Bell Recipe",
+  "description": "Adds a recipe for the village bell item.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/village-bell-recipe",
+    "sources": "https://github.com/Serilum/Village-Bell-Recipe",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Village%20Bell%20Recipe"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.villagebellrecipe.ModFabric" ] },
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "collective": ">=7.52"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " BirdieMiner",
+	  " Cherriesaurus",
+	  " Jack",
+	  " Jeremy Langford",
+	  " Michael W. S.",
+	  " pepe1191",
+	  " Shana Gitnick",
+	  " Tyler Behl"
+  ]
+}
