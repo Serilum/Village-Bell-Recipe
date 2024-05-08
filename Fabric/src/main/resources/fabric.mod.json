@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "villagebellrecipe",
-  "version": "3.3",
+  "version": "3.4",
 
   "name": "Village Bell Recipe",
   "description": "Adds a recipe for the village bell item.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54"
+    "collective": ">=7.57"
   },
 
   "custom": {
