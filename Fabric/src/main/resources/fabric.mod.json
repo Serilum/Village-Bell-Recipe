@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "villagebellrecipe",
-  "version": "3.4",
+  "version": "3.5",
 
   "name": "Village Bell Recipe",
   "description": "Adds a recipe for the village bell item.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.62"
   },
 
   "custom": {
@@ -48,8 +48,8 @@
 	  " Cherriesaurus",
 	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
 	  " Shana Gitnick",
+	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
