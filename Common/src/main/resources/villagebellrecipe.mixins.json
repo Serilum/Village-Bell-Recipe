@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.villagebellrecipe.forge.mixin",
+  "package": "com.natamus.villagebellrecipe.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "villagebellrecipe_forge.refmap.json",
   "mixins": [
 
   ],
