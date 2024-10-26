@@ -6,15 +6,9 @@
 		"S S"
 	],
 	"key": {
-		"L": {
-			"tag": "minecraft:logs"
-		},
-		"G": {
-			"item": "minecraft:gold_block"
-		},
-		"S": {
-			"item": "minecraft:stone"
-		}
+		"L": "#minecraft:logs",
+		"G": "minecraft:gold_block",
+		"S": "minecraft:stone"
 	},
 	"result": {
 		"id": "minecraft:bell"
