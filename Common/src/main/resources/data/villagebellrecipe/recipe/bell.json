@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"LLL",
+		"SGS",
+		"S S"
+	],
+	"key": {
+		"L": "#minecraft:logs",
+		"G": "minecraft:gold_block",
+		"S": "minecraft:stone"
+	},
+	"result": {
+		"id": "minecraft:bell"
+	}
+}
