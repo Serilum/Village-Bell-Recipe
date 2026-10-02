@@ -1,4 +1,4 @@
-package com.natamus.villagebellrecipe;
+package com.serilum.villagebellrecipe;
 
 
 public class ModCommon {
