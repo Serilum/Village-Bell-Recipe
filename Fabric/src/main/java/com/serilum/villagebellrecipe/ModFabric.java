@@ -1,8 +1,8 @@
-package com.natamus.villagebellrecipe;
+package com.serilum.villagebellrecipe;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.villagebellrecipe.util.Reference;
+import com.serilum.villagebellrecipe.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
